@@ -1,26 +1,29 @@
 {
-  "name": "haproxy",
-  "version": "0.1.0",
-  "author": "Chris Gamache <chrisgamachecodes@gmail.com>",
-  "description": "haproxy stats socket utility",
-  "contributors": [ 
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cgamache/node_haproxy.git"
-  },
-  "keywords": [
-    "haproxy"
-  ],
-  "main": "haproxy.js",
-  "dependencies" : {
-    "net"   :  ">= 0.6.5",
-    "underscore" :  ">= 1.4.2"
-  },
-  "analyze": false,
-  "license": "GPLv2",
-  "engines": {
-    "node": ">=0.6"
-  }
+    "name": "haproxy-sock-handler",
+    "version": "0.1.0",
+    "author": "Chris Gamache <chrisgamachecodes@gmail.com>",
+    "description": "haproxy stats socket utility",
+    "contributors": [
+        {
+            "name": "Chris Gamache",
+            "email": "chrisgamachecodes@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cgamache/haproxy-sock-handler.git"
+    },
+    "keywords": [
+        "haproxy"
+    ],
+    "main": "haproxy.js",
+    "dependencies": {
+        "net": ">= 0.6.5",
+        "underscore": ">= 1.4.2"
+    },
+    "analyze": false,
+    "license": "GPLv2",
+    "engines": {
+        "node": ">=0.6"
+    }
 }
-

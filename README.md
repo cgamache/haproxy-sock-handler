@@ -1,5 +1,5 @@
 haproxy-sock-handler
-============
+====================
 
 node.js haproxy socket access module
 
@@ -13,7 +13,7 @@ Haproxy can be partially controlled by sending messages to a socket. Enable the 
 Configuration
 -------------
 
-var haproxy = require('haproxy');
+var haproxy = require('haproxy-sock-handler');
 
 haproxy.config.socket = '/path/to/haproxy.sock';
 
