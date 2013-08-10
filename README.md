@@ -1,14 +1,14 @@
-node_haproxy
+haproxy-sock-handler
 ============
 
 node.js haproxy socket access module
 
 Haproxy can be partially controlled by sending messages to a socket. Enable the socket control by specifying
 
->global 
->     ...
->     stats socket /var/run/haproxy.sock
->     ...
+>     global 
+>         ...
+>         stats socket /var/run/haproxy.sock
+>         ...
 
 Configuration
 -------------
