@@ -14,25 +14,38 @@ Configuration
 -------------
 
 var haproxy = require('haproxy');
+
 haproxy.config.socket = '/path/to/haproxy.sock';
+
 
 The default configured value is '/var/run/haproxy.sock'
 
 Methods
 -------
 
-showStat(cb)
-     returns stats object
-showBackendStat(backend, callback)
-     returns stats on specified backend
-showInfo(cb)
-     returns general haproxy info
-showHelp(cb)
-     returns socket help text
-updateBackend(backend, data, callback)
-     sets weight/up/down/maint for specified backend
-updateBackends(data, callback)
-     sets weight/up/down/maint for many backends
+* showStat(cb)
+
+returns stats object
+
+* showBackendStat(backend, callback)
+
+returns stats on specified backend
+
+* showInfo(cb)
+
+returns general haproxy info
+
+* showHelp(cb)
+
+returns socket help text
+
+* updateBackend(backend, data, callback)
+
+sets weight/up/down/maint for specified backend
+
+* updateBackends(data, callback)
+
+sets weight/up/down/maint for many backends
 
 Data
 ----
